@@ -4,6 +4,7 @@ public class Iphone {
 	public static void main(String[] args) {
 		
 		SmartPhone iphone = new SmartPhone();
+		SmartPhone android = new SmartPhone();
 		
 		iphone.play();
 		iphone.stop();
@@ -13,6 +14,16 @@ public class Iphone {
 		iphone.mail();
 		iphone.photo();
 		iphone.internet();
+		
+		//Android
+		android.play();
+		android.stop();
+		android.next();
+		android.back();
+		android.call();
+		android.mail();
+		android.photo();
+		android.internet();
 
 	}
 
